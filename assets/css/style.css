@@ -144,15 +144,12 @@ h1 {
     text-align: center;
 }
 
-#links {
-    
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
 
-li {
-    display: inline;
+#links {
+    display: block;
+    width: 100%;
+    margin-right: 25%;
+    padding: 0;
 }
 
 #container {
@@ -165,6 +162,8 @@ li {
 
 #profilepicture {
     width: 100%;
+    margin: auto;
+    padding: 20px;
 }
 
 p{
