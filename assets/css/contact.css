@@ -26,6 +26,7 @@ h1 {
     padding: 20px;
     background-color: #4aaaa5;
     font-size: 24px;
+    font-weight: bold;
     color: #ffffff;
     float: left;
     margin: auto;
@@ -38,6 +39,11 @@ h1 {
     width: 65%;
     text-align: right;
     color: #ddd9d9;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
 }
 
 a {
@@ -118,3 +124,84 @@ footer {
     margin-top: 7%;
     border-top: 6px solid #4aaaa5;
 }
+
+@media screen and (max-width: 980px) {
+
+    header {
+        width: 100%;
+    }
+    
+    #links {
+        margin-right: 15px;
+    }
+    
+    .headingbar {
+        width: 100%;
+    }
+    
+    #container {
+        width: 768px;
+    }
+    }
+    
+    @media screen and (max-width: 768px) {
+    header {
+         width: 100%;
+    }
+    
+    #links {
+        margin-right: 15px;
+    }
+    
+    .headingbar {
+        width: 100%;
+    }
+    
+    #container {
+         width: 640px;
+    }
+    }
+    
+    @media screen and (max-width: 640px) {
+    
+    header {
+        position: static;
+        width: 100%;
+    }
+        
+    .headingbar {
+        width: 100%;
+    }
+    
+    h1 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #links {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    
+    #container {
+        width: 90%;
+    }
+    
+    #sectionheader {
+        text-align: center;
+    }
+    
+    .form {
+        display: block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    
+    p{
+        font-size: 14px;
+    }
+    }
