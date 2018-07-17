@@ -50,7 +50,7 @@ a {
     margin-top: 2.5%;
 }
 
-#container {
+.wrapper {
     background-color: #ffffff;
     border-color: 2px solid #dddddd;
     margin: auto;
@@ -72,17 +72,25 @@ table {
     border: none;
 }
 
-div.gallery {
-    margin: 2px;
-    float: left;
+.imgcontainer {
+    position: relative;
+    width: 250px;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
 }
 
-div.desc {
+#blocktext {
+    z-index: 100;
+    position: absolute;
+    width: 100%;
+    top: 65%;
     background-color: #4aaaa5;
-    color: #ffffff;
     text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 10px;
 }
-
 
 .clearfix::after {
     content: "";
