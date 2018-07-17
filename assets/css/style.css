@@ -26,6 +26,7 @@ h1 {
     padding: 20px;
     background-color: #4aaaa5;
     font-size: 24px;
+    font-weight: bold;
     color: #ffffff;
     float: left;
     margin: auto;
@@ -38,6 +39,11 @@ h1 {
     width: 65%;
     text-align: right;
     color: #ddd9d9;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
 }
 
 a {
@@ -74,6 +80,10 @@ a {
     padding: 20px;
 }
 
+p {
+    padding: 20px;
+}
+
 .clearfix::after {
     content: "";
     clear: both;
@@ -87,4 +97,77 @@ footer {
     padding-top: 50px;
     margin-top: 7.5%;
     border-top: 6px solid #4aaaa5;
+}
+
+@media screen and (max-width: 980px) {
+
+header {
+    width: 100%;
+}
+
+.headingbar {
+    width: 100%;
+}
+
+#container {
+    width: 768px;
+}
+}
+
+@media screen and (max-width: 768px) {
+header {
+     width: 100%;
+}
+
+.headingbar {
+    width: 100%;
+}
+
+#container {
+     width: 640px;
+}
+}
+
+@media screen and (max-width: 640px) {
+
+header {
+    position: static;
+    width: 100%;
+}
+
+.headingbar {
+    width: 100%;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+#links {
+    
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+#container {
+    width: 100%;
+}
+
+#sectionheader {
+    text-align: center;
+}
+
+#profilepicture {
+    width: 100%;
+}
+
+p{
+    font-size: 14px;
+}
 }
