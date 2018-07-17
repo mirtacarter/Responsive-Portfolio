@@ -105,6 +105,10 @@ header {
     width: 100%;
 }
 
+#links {
+    margin-right: 15px;
+}
+
 .headingbar {
     width: 100%;
 }
@@ -117,6 +121,10 @@ header {
 @media screen and (max-width: 768px) {
 header {
      width: 100%;
+}
+
+#links {
+    margin-right: 15px;
 }
 
 .headingbar {
@@ -134,6 +142,7 @@ header {
     position: static;
     width: 100%;
 }
+
 
 .headingbar {
     width: 100%;
