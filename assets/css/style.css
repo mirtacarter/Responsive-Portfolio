@@ -55,7 +55,6 @@ a {
 
 .clearfix {
     margin-top: 2.5%;
-    margin-bottom: 30%;
 }
 
 #container {
@@ -189,6 +188,10 @@ h1 {
 
 p{
     font-size: 14px;
+}
+
+.clearfix {
+    margin-bottom: 30%;
 }
 
 footer {
