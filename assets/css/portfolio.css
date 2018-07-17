@@ -21,11 +21,11 @@ header {
     overflow: auto;
 }
 
-
 h1 {
     padding: 20px;
-    font-size: 24px;
     background-color: #4aaaa5;
+    font-size: 24px;
+    font-weight: bold;
     color: #ffffff;
     float: left;
     margin: auto;
@@ -38,6 +38,11 @@ h1 {
     width: 65%;
     text-align: right;
     color: #ddd9d9;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
 }
 
 a {
@@ -108,3 +113,87 @@ footer {
     border-top: 6px solid #4aaaa5;
 }
 
+
+@media screen and (max-width: 980px) {
+
+    header {
+        width: 100%;
+    }
+    
+    #links {
+        margin-right: 15px;
+    }
+    
+    .headingbar {
+        width: 100%;
+    }
+    
+    #container {
+        width: 768px;
+    }
+    }
+    
+    @media screen and (max-width: 768px) {
+    header {
+         width: 100%;
+    }
+    
+    #links {
+        margin-right: 15px;
+    }
+    
+    .headingbar {
+        width: 100%;
+    }
+    
+    .wrapper {
+         width: 640px;
+    }
+
+    img {
+        object-fit: scale-down;
+    }
+
+
+    #sectionheader {
+        text-align: center;
+    }
+
+    #blocktext {
+        font-size: 16px;
+    }
+
+    }
+
+    
+    @media screen and (max-width: 640px) {
+    
+    header {
+        position: static;
+        width: 100%;
+    }
+    
+    
+    .headingbar {
+        width: 100%;
+    }
+    
+    h1 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    
+    #links {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    
+
+    #sectionheader {
+        text-align: center;
+    }
+    
+    }
