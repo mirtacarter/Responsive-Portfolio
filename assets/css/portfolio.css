@@ -154,7 +154,6 @@ footer {
         object-fit: scale-down;
     }
 
-
     #sectionheader {
         text-align: center;
     }
@@ -162,7 +161,6 @@ footer {
     #blocktext {
         font-size: 16px;
     }
-
     }
 
     
@@ -173,7 +171,6 @@ footer {
         width: 100%;
     }
     
-    
     .headingbar {
         width: 100%;
     }
@@ -183,7 +180,6 @@ footer {
         text-align: center;
     }
     
-    
     #links {
         display: block;
         width: 100%;
@@ -191,9 +187,20 @@ footer {
         padding: 0;
     }
     
+    .wrapper {
+        display: block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     #sectionheader {
         text-align: center;
     }
     
+    .tablecontainer {
+        width: 55%;
+        margin-left: auto;
+        margin-right: auto;
+    }
     }
