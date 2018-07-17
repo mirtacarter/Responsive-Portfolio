@@ -24,6 +24,7 @@ header {
 
 h1 {
     padding: 20px;
+    font-size: 24px;
     background-color: #4aaaa5;
     color: #ffffff;
     float: left;
@@ -106,3 +107,4 @@ footer {
     margin-top: 3%;
     border-top: 6px solid #4aaaa5;
 }
+
