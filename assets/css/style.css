@@ -8,6 +8,12 @@ body {
     background-image: url("../images/background.png");
 }
 
+.navsection {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 header {
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
@@ -54,7 +60,7 @@ a {
 }
 
 .clearfix {
-    margin-top: 2.5%;
+    margin-top: 10%;
 }
 
 #container {
@@ -72,7 +78,7 @@ a {
     color: #4aaaa5;
     font-size: 24px;
     font-weight: bold;
-    padding: 20px;
+    padding: 10px;
 }
 
 #profilepicture {
@@ -100,7 +106,7 @@ footer {
     background-color: #666666;
     font-size: 14px;
     text-align: center;
-    padding-top: 75px;
+    padding-top: 55px;
     margin-top: 7.5%;
     border-top: 6px solid #4aaaa5;
 }
@@ -138,6 +144,10 @@ header {
     width: 100%;
 }
 
+.clearfix {
+    margin-top: 20%;
+}
+
 #container {
      width: 640px;
 }
@@ -145,7 +155,7 @@ header {
 
 @media screen and (max-width: 640px) {
 
-header {
+.navsection {
     position: static;
     width: 100%;
 }
@@ -169,7 +179,8 @@ h1 {
 }
 
 #container {
-    width: 100%;
+    width: 95%;
+
 }
 
 #sectionheader {
@@ -191,6 +202,7 @@ p{
 }
 
 .clearfix {
+    margin-top: 10%;
     margin-bottom: 30%;
 }
 
