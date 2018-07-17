@@ -55,6 +55,7 @@ a {
 
 .clearfix {
     margin-top: 2.5%;
+    margin-bottom: 20%;
 }
 
 #container {
@@ -109,19 +110,24 @@ input[type=submit]:hover {
 }
 
 
-
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
 }
 
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 footer {
     background-color: #666666;
     font-size: 14px;
     text-align: center;
-    padding-top: 50px;
-    margin-top: 7%;
+    padding-top: 75px;
+    margin-top: 7.5%;
     border-top: 6px solid #4aaaa5;
 }
 
@@ -187,6 +193,7 @@ footer {
     
     #container {
         width: 90%;
+        margin-bottom: 30%;
     }
     
     #sectionheader {
@@ -203,5 +210,9 @@ footer {
     
     p{
         font-size: 14px;
+    }
+
+    footer {
+        padding: 20px;
     }
     }
