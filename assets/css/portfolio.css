@@ -94,6 +94,10 @@ table {
     margin: 20px;
 }
 
+#portfolio {
+    color: #ffffff;
+}
+
 #blocktext {
     position: absolute;
     width: 100%;
