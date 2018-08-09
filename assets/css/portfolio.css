@@ -101,12 +101,24 @@ table {
 #blocktext {
     position: absolute;
     width: 100%;
-    top: 65%;
+    top: 60%;
     background-color: #4aaaa5;
     text-align: center;
     color: #ffffff;
     font-size: 24px;
     padding: 10px;
+}
+
+#blocktext2 {
+    position: absolute;
+    width: 100%;
+    top: 75%;
+    margin-top: 2px;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 8px;
 }
 
 .clearfix::after {
